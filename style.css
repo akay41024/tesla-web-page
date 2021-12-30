@@ -63,7 +63,7 @@ nav .btn::after{
 nav .btn:hover{
     background: #fff;
     color: black;
-    width: 8%;
+    width: 5%;
 }
 .info{
     width: 100%;
