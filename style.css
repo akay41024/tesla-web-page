@@ -51,6 +51,20 @@ nav .btn{
     border-radius: 3rem;
     margin-right: 7%;
 }
+nav .btn::after{
+    content: '';
+    height: 2rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    position: fixed;
+    transition: 1s;
+    
+}
+nav .btn:hover{
+    background: #fff;
+    color: black;
+    width: 9.6%;
+}
 .info{
     width: 100%;
     padding: 0 7%;
